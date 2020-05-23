@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		9E201F552479160700FD2B15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E201F542479160700FD2B15 /* AppDelegate.swift */; };
 		9E201F572479160700FD2B15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E201F562479160700FD2B15 /* SceneDelegate.swift */; };
-		9E201F592479160700FD2B15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E201F582479160700FD2B15 /* ContentView.swift */; };
+		9E201F592479160700FD2B15 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E201F582479160700FD2B15 /* ProfileView.swift */; };
 		9E201F5B2479160A00FD2B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E201F5A2479160A00FD2B15 /* Assets.xcassets */; };
 		9E201F5E2479160A00FD2B15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E201F5D2479160A00FD2B15 /* Preview Assets.xcassets */; };
 		9E201F612479160A00FD2B15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E201F5F2479160A00FD2B15 /* LaunchScreen.storyboard */; };
+		9E201F6924792D6300FD2B15 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E201F6824792D6300FD2B15 /* StartView.swift */; };
+		9E201F6B24792DBC00FD2B15 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E201F6A24792DBC00FD2B15 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9E201F512479160700FD2B15 /* ComplexSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComplexSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E201F542479160700FD2B15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E201F562479160700FD2B15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9E201F582479160700FD2B15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9E201F582479160700FD2B15 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		9E201F5A2479160A00FD2B15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E201F5D2479160A00FD2B15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E201F602479160A00FD2B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E201F622479160A00FD2B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E201F6824792D6300FD2B15 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		9E201F6A24792DBC00FD2B15 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				9E201F542479160700FD2B15 /* AppDelegate.swift */,
 				9E201F562479160700FD2B15 /* SceneDelegate.swift */,
-				9E201F582479160700FD2B15 /* ContentView.swift */,
+				9E201F6824792D6300FD2B15 /* StartView.swift */,
+				9E201F6A24792DBC00FD2B15 /* DetailView.swift */,
+				9E201F582479160700FD2B15 /* ProfileView.swift */,
 				9E201F5A2479160A00FD2B15 /* Assets.xcassets */,
 				9E201F5F2479160A00FD2B15 /* LaunchScreen.storyboard */,
 				9E201F622479160A00FD2B15 /* Info.plist */,
@@ -148,7 +154,9 @@
 			files = (
 				9E201F552479160700FD2B15 /* AppDelegate.swift in Sources */,
 				9E201F572479160700FD2B15 /* SceneDelegate.swift in Sources */,
-				9E201F592479160700FD2B15 /* ContentView.swift in Sources */,
+				9E201F592479160700FD2B15 /* ProfileView.swift in Sources */,
+				9E201F6B24792DBC00FD2B15 /* DetailView.swift in Sources */,
+				9E201F6924792D6300FD2B15 /* StartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
